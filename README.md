@@ -81,7 +81,7 @@ sacco_prototype/
 
 ---
 
-## Methodology & Technical Details 🔍
+## Methodology & Technical Details
 
 ### Data preprocessing
 1. **Generation / ingestion**: transactions, balances, demographic fields.
@@ -129,7 +129,7 @@ Trade‑offs:
 
 ---
 
-## Economic & Policy Considerations 💰
+## Economic & Policy Considerations
 
 - **Cost‑benefit**: modelling indicates a 5 pp increase in retention yields ~KSh 500 million additional lending capacity per 100 000 members.
 - **Financial inclusion**: targeted reminders help low‑income, remote members maintain savings, reducing reliance on costly informal credit.
@@ -140,7 +140,7 @@ Trade‑offs:
 
 ---
 
-## Data Governance & Ethics 🛡️
+## Data Governance & Ethics
 
 - **Minimisation**: only essential attributes are stored; all analytics operate on tokens.
 - **Consent & transparency**: members must be informed that their anonymised data may inform system improvements; explicit opt‑out is supported.
@@ -149,7 +149,7 @@ Trade‑offs:
 
 ---
 
-## Scalability & Deployment 🚀
+## Scalability & Deployment
 
 Architecture is container-friendly (Dockerfiles included) and can run in Kubernetes. In production, the API and analytic databases are separated, with read‑replicas for large‑scale model training. Feature computation pipelines can be scaled using Apache Airflow or similar schedulers.
 
@@ -161,7 +161,7 @@ Considerations:
 
 ---
 
-## Regulatory & Compliance Checklist ✅
+## Regulatory & Compliance Checklist
 
 *see original checklist unchanged* (same as above)
 
