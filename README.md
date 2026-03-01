@@ -1,4 +1,4 @@
-# SACCO Retention Analysis System — Prototype
+# SACCO Retention Analysis System Prototype
 
 A research-quality framework for running controlled experiments and predictive analytics on member retention in Kenyan Savings and Credit Cooperative Organizations (SACCOs) and licensed microfinance institutions.
 
