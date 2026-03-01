@@ -89,7 +89,7 @@ sacco_prototype/
 3. **Cleaning**: remove duplicate transactions, impute missing salary dates using member-specific median pay cycle, and flag anomalous balances outside ±3σ for manual review.
 4. **Feature engineering**: derive monthly saving rate, rolling 3‑month delinquency, and segment by loan product.
 
-> _Reasoning_: clean, consistent inputs are essential for unbiased A/B tests and reliable churn models. Imputation avoids discarding low‑income members who are most policy‑relevant.
+> Clean, consistent inputs are essential for unbiased A/B tests and reliable churn models. Imputation avoids discarding low‑income members who are most policy‑relevant.
 
 ### Model assumptions
 - **Independence**: each member’s retention decision is assumed independent conditional on observed covariates.
@@ -119,7 +119,7 @@ Trade‑offs:
 | Random Forest     | 0.78 | 0.73     | 0.61      | 0.66   | Handles interactions; moderate compute               |
 | XGBoost           | 0.80 | 0.75     | 0.65      | 0.68   | Best accuracy; highest resource usage                |
 
-> _Note_: metrics computed on test set; differences inform model selection during deployment planning.
+> Metrics computed on test set; differences inform model selection during deployment planning.
 
 ### A/B testing framework
 - **Assignment**: member-level randomisation stratified by loan product and tenure to ensure balance.
